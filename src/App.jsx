@@ -16,6 +16,10 @@ import birthdaySong from "./assets/birthdaySong.mp3";
 import "./App.css";
 
 function App() {
+  const [unlocked, setUnlocked] = useState(false);
+  const [password, setPassword] = useState("");
+
+  const SECRET_PASSWORD = "iloveyoubeta";
   const [isOpening, setIsOpening] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -62,6 +66,47 @@ function App() {
     }
     }, 2000);
   };
+
+  if (!unlocked) {
+  return (
+    <div className="password-screen">
+      <div className="password-card">
+        <div className="password-heart">💌</div>
+
+        <h1>A Little Space For Us</h1>
+
+        <p>
+          This little corner of the internet<br />
+          is only meant for you & me. ❤️
+        </p>
+
+        <input
+          type="password"
+          placeholder="Enter our secret..."
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && password === SECRET_PASSWORD) {
+              setUnlocked(true);
+            }
+          }}
+        />
+
+        <button
+          onClick={() => {
+            if (password === SECRET_PASSWORD) {
+              setUnlocked(true);
+            } else {
+              alert("Hmm... that's not our secret password 🤭❤️");
+            }
+          }}
+        >
+          Open Our Little World ❤️
+        </button>
+      </div>
+    </div>
+  );
+}
 
   return (
     <div className="page">

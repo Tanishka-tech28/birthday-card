@@ -5251,3 +5251,111 @@ body {
   }
 
 }
+
+/* =========================================================
+   🔐 PRIVATE PASSWORD SCREEN
+   ========================================================= */
+
+.password-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: radial-gradient(
+    circle at center,
+    #fff5f7 0%,
+    #f8dfe5 45%,
+    #efd0d8 100%
+  );
+  font-family: "Cormorant Garamond", serif;
+}
+
+.password-card {
+  width: min(430px, 90vw);
+  padding: 50px 35px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(80, 30, 45, 0.18);
+  backdrop-filter: blur(12px);
+  animation: passwordAppear 1s ease;
+}
+
+.password-heart {
+  font-size: 55px;
+  margin-bottom: 15px;
+  animation: passwordHeartBeat 1.8s infinite;
+}
+
+.password-card h1 {
+  margin: 0 0 15px;
+  font-family: "Parisienne", cursive;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.password-card p {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.password-card input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 18px;
+  border: 1px solid #d9aeb9;
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+  font-family: inherit;
+  font-size: 17px;
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+}
+
+.password-card input:focus {
+  box-shadow: 0 0 0 3px rgba(180, 100, 120, 0.15);
+}
+
+.password-card button {
+  border: none;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  background: #8f5364;
+  color: white;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.password-card button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(80, 30, 45, 0.2);
+}
+
+@keyframes passwordAppear {
+  from {
+    opacity: 0;
+    transform: translateY(25px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes passwordHeartBeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.12);
+  }
+}
