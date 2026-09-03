@@ -73,16 +73,15 @@ function App() {
       <div className="password-card">
         <div className="password-heart">💌</div>
 
-        <h1>A Little Space For Us</h1>
+        <h1>A Little Space For Us Bugguu</h1>
 
         <p>
-          This little corner of the internet<br />
-          is only meant for you & me. ❤️
+          Chalo ab guess kro iska passwrd. ❤️
         </p>
 
         <input
           type="password"
-          placeholder="Enter our secret..."
+          placeholder="Enter your favourite line or word..."
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           onKeyDown={(e) => {
@@ -101,7 +100,7 @@ function App() {
             }
           }}
         >
-          Open Our Little World ❤️
+          Loveeee you kitttuuu ❤️
         </button>
       </div>
     </div>
