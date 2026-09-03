@@ -1,4 +1,18 @@
 import { useEffect, useRef, useState } from "react";
+import memorywe from "./assets/memorywe.JPG";
+import memory1 from "./assets/memory1.JPG";
+import memory2 from "./assets/memory2.JPG";
+import memory7 from "./assets/memory7.JPG";
+import memory4 from "./assets/memory4.JPG";
+import memory5 from "./assets/memory5.JPG";
+import memory6 from "./assets/memory6.JPG";
+import memory8 from "./assets/memory8.JPG";
+import college from "./assets/college.JPG";
+import memory9 from "./assets/memory9.JPG";
+import memory10 from "./assets/memory10.JPG";
+import he from "./assets/he.JPG";
+import US from "./assets/US.JPG";
+import birthdaySong from "./assets/birthday-song.mp3";
 import "./App.css";
 
 function App() {
@@ -81,7 +95,7 @@ function App() {
       )}
       <audio
         ref={audioRef}
-        src="/music/birthday-song.mp3"
+        src={birthdaysong}
         loop
       />
 
@@ -238,7 +252,7 @@ function App() {
             </p>
             <div className="memory-photo">
             <img
-              src="/photos/1.JPG"
+              src={memory1}
               alt="One of our college memories"
             />
             </div>
@@ -257,7 +271,7 @@ function App() {
             </h1>
             <div className="memory-photo">
             <img
-              src="/photos/we.JPG"
+              src={memorywe}
               alt="One of our college memories"
             />
             </div>
@@ -298,7 +312,7 @@ function App() {
             </h2>
             <div className="memory-photo">
             <img
-              src="/photos/2.JPG"
+              src={memory2}
               alt="One of our college memories"
             />
             </div>
@@ -308,7 +322,7 @@ function App() {
 
             <div className="memory-photo">
             <img
-              src="/photos/us2.JPG"
+              src={memory8}
               alt="One of our college memories"
             />
             </div>
@@ -340,7 +354,7 @@ function App() {
               </p>
                 <div className="memory-photo">
               <img
-                src="/photos/5.JPG"
+                src={memory5}
                 alt="One of our college memories"
               />
               </div>
@@ -402,7 +416,7 @@ function App() {
             </p>
             <div className="memory-photo">
             <img
-              src="/photos/10.JPG"
+              src={memory10}
               alt="One of our college memories"
             />
             </div>
@@ -477,7 +491,7 @@ function App() {
 
             <div className="memory-photo">
             <img
-              src="/photos/college.JPG"
+              src={college}
               alt="One of our college memories"
             />
             </div>
@@ -529,7 +543,7 @@ function App() {
             </div>
               <div className="memory-photo">
             <img
-              src="/photos/9.JPG"
+              src={memory9}
               alt="One of our college memories"
             />
             </div>
@@ -550,7 +564,7 @@ function App() {
             </div>
               <div className="memory-photo">
             <img
-              src="/photos/4.JPG"
+              src={memory4}
               alt="One of our college memories"
             />
             </div>
@@ -656,7 +670,7 @@ function App() {
 
                 <div className="opened-gift">
                   <img
-                    src="/photos/he.JPG"
+                    src={he}
                     alt="Your surprise"
                   />
                 </div>
@@ -709,7 +723,7 @@ function App() {
             </div>
               <div className="memory-photo">
             <img
-              src="/photos/7.JPG"
+              src={memory7}
               alt="One of our college memories"
             />
             </div>
@@ -742,7 +756,7 @@ function App() {
             </div>
               <div className="memory-photo">
             <img
-              src="/photos/6.JPG"
+              src={memory6}
               alt="One of our college memories"
             />
             </div>
@@ -811,7 +825,7 @@ function App() {
             </div>
               <div className="memory-photo">
             <img
-              src="/photos/US.JPG"
+              src={US}
               alt="One of our college memories"
             />
             </div>
