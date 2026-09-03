@@ -12,7 +12,7 @@ import memory9 from "./assets/memory9.JPG";
 import memory10 from "./assets/memory10.JPG";
 import he from "./assets/he.JPG";
 import US from "./assets/US.JPG";
-import birthdaySong from "./assets/birthday-song.mp3";
+import birthdaySong from "./assets/birthdaySong.mp3";
 import "./App.css";
 
 function App() {
@@ -95,7 +95,7 @@ function App() {
       )}
       <audio
         ref={audioRef}
-        src={birthdaysong}
+        src={birthdaySong}
         loop
       />
 
