@@ -292,7 +292,7 @@ function App() {
             <p className="eyebrow">
               <br />
               <br />
-              A little birthday letter for my favourite person (my gadhaa😁)
+              A little birthday letter to my favourite person (my gadhaa😁)
             </p>
             <div className="memory-photo">
             <img
@@ -311,7 +311,7 @@ function App() {
               <br />
               Happpieeeee B'day
               <br />
-              My Buggluuuuu❤️
+              Buggluuuuu❤️
             </h1>
             <div className="memory-photo">
             <img
@@ -330,11 +330,13 @@ function App() {
               <br />
               Hloooo Puchuuuuuu,
               <br />
-              abki baar fir aapke liye ek birthday letter...😁
+              abki baar fir aapke liye ek love-letter (birthday edition wala)...😁
             </p>
 
             <p>
-              Wishing you the
+               Again
+               <br />
+               Wishing you the
               <strong> happpiiiiesstttt birthdayyyyyy </strong>
               bugluu. 🎂❤️
             </p>
@@ -352,7 +354,8 @@ function App() {
 
             <h2>
               <br />
-              Akele me pdhnaaa.... Okayyy
+              Akele me pdhnaaa.... Okayyy😁
+              <p>Private baatein bhi h isme</p>
             </h2>
             <div className="memory-photo">
             <img
@@ -384,7 +387,7 @@ function App() {
               <br />
               <strong>But don’t worry bugguu, now here’s me hihihi.</strong>
               <br />
-              I’ll always try to make you feel really very special today.😭🎀❤️
+              I’ll always try to make you feel really very special on your every upcoming birthdays.😭🎀❤️
             </p>
 
             <div className="quote-card">
@@ -421,18 +424,18 @@ function App() {
             <h2>
               <br />
               <br />
-              I know this year I can't give you as many kisses,
+              I know this year I can't give you as many kisses and
               hugs as you want.... 👀
             </h2>
 
             <p>
-              Also, that sex as your birthday present will also
+              Also, that sex as your birthday present is also
               be pending 😂😁.
             </p>
 
             <p>
               But don’t worry, we’ll do it next year for sure
-              on ur birthday.
+              on ur birthday🤞🏻🌸.
             </p>
 
             <p>
@@ -441,21 +444,22 @@ function App() {
             </p>
 
             <p>
-              <br />
-              Next year, I’ll wish you birthday at notch <strong>12'am </strong>
-               with infinite kisses and a cute hugs. 🫠❤️
+              I wish, Next year, m aapko birthday notch <strong>12'am </strong>
+              pe wish kru with lots of kisses and a cute hugs. 🫠❤️
             </p>
 
             <p>
               <br />
               Koi baat nhi, is baar aap is letter se kaam chla lo 😅.
               <br />
-              I know ye un actual letter jesi feel to nhi dega.
+              I know ye un actual letter jesa to feel nhi dega.
+              <br />
+              But abki baar to yehi option hai puchuuu
             </p>
 
             <p>
               <br />
-              But aapko pta h, I literally made a app for this
+              And aapko pta h, I literally made a website for this surprise 
               letter 😅.
             </p>
             <div className="memory-photo">
@@ -480,14 +484,14 @@ function App() {
             </div>
 
             <h2>
-              I even thought of making a letter and sharing it with Shadiq.
+              Phle to, I even thought of making a letter and sharing its pdf with Shadiq.
               So that wo print out lekar aapko dede. 💌
             </h2>
 
             <p>
-              But then, I thought kahi agr usne pdh liya ya agr print out krwaya to kisi or k pass ye save ho jaegaa . 
+              But then, I thought kahi agr usne letter pdh liya to, ya agr print out krwaya and kisi or k pass wo pdf save ho jaegaa . 
               <br />
-              So why not to make it more creative
+              So why not to make it by myself in a more creative way
               and keep this letter in between us only.
             </p>
 
@@ -521,16 +525,16 @@ function App() {
             </div>
 
             <h2>
-              You know I’m really missing you and our old college days,
-              and abki baar to itna jyada time ho gya mile 
+              You know I’m really missing apna saath rhna and our old college days.
+              And aapko pta h abki baar to itna jyada time ho gya mile 
               <br />
-              — more than three months.🥺
+              — it's been more than three months.🥺
             </h2>
 
             <p>
-              Just hoping k bhagwan ji jldi se job lgwaa de dono ki.
+              Now, I'm just hoping k bhagwan ji jldi se job lgwaa de dono ki.
               <br />
-              And fir hum dono saath saath rhe 😁.
+              And fir hum dono saath saath rhe 😁💃🏻🧑🏻‍🩰.
             </p>
 
             <div className="memory-photo">
@@ -546,7 +550,7 @@ function App() {
                   className="secret-trigger"
                   onClick={() =>
                     setSecretMessage(
-                      "Kittttuuuu...I really really miss you. More than I usually say. 🥺❤️"
+                      "Kittttuuuu...I really really miss you today. More than I usually do. Aaj to rona bhi aa rha h. 🥺❤️"
                     )
                   }
                 >
@@ -554,7 +558,7 @@ function App() {
                 </button>
                 <div>
                 <p>
-                  something is hiding here...
+                  something is hidden here...
                   <br />
                   <span>
                   (is star icon ko click kro sir)
@@ -601,7 +605,7 @@ function App() {
             </h2>
 
             <p>
-              khane me kya bnaau apke birthday k liye….😝
+              khane me kya bnaau apke birthday k liye.... chai pakode….😝
             </p>
             <div className="ornament">
               ♡　✦　♡
@@ -624,8 +628,8 @@ function App() {
               <br />
               <br />
               <br />
-              Vase abki baar to bugguu possible nhi, but jab hum saath rha krenge,
-              I’ll surely make whatever you like.
+              Vase abki baar to bugguu possible nhi, but jab hum saath me rha krenge na,
+              Tab I’ll surely make nyii nyii dishes and recipes whatever you like.
             </p>
 
             <p>
@@ -661,11 +665,11 @@ function App() {
                   </h2>
 
                   <p>
-                    Now, I don't know aap ye pdhoge
+                    Now, I don't know jab aap ye letter pdh rhe ho,
                     <br />
-                    jb tk aapko wo to mil chuka hoga ya nhi.
+                    tb tk aapko wo to mil chuka hoga ya nhi.
                     <br />
-                    But..... ye bhi ek or surprise h aapke liye.😁
+                    But koi baat nhi..... ye ek or surprise h aapke liye.😁
                   </p>
 
                 </div>
@@ -690,7 +694,7 @@ function App() {
                   </div>
 
                   <p className="gift-tap">
-                    ♡ Chlo isko open kroo 😁 ♡
+                    ♡ Chlo ab isko open kroo😁 ♡
                   </p>
 
                 </div>
@@ -722,13 +726,13 @@ function App() {
                 <div className="gift-surprise-message">
 
                   <p className="surprise-small">
-                    SURPRISEEEEE BUGGUUU
+                    BUGGUUU SURPRISEEEEE
                   </p>
                                   
                   <p>
                     I hope you liked it. 🤭😁
                     <br />
-                    May be it recalls you the moment....
+                    May be isse aapko wo moments yaad aaye jb m aapki hair care and skin care krtii thi....
                     <br />
                     </p>
 
@@ -776,22 +780,33 @@ function App() {
             </div>
 
             <h2>
-              And ab to birthday bhi aa gya.... Gym kbse start kr rhe ho 👀😁.
+              And ab to birthday bhi aa gya sir ji..... Gym kbse start kr rhe ho 👀😁.
             </h2>
 
             <p>
-              Mast body shody bna lo, fir m bhi flex krungii —
-              mere husband k bhi abs h 🤭.
+              Ab na aap mast body shody bna lo, fir m bhi flex krungii —
+              mere husband k bhi 6 pack abs h 🤭.
             </p>
 
             <p>
-              Fir sex krne me bhi mje aaenge,
-              ye pet bich me nhi aaega.
-            </p>
-
-            <p>
-              Nye nye sexy sexy pose try kr paenge 🤭.
+              Fir uske baad to sex krne me bhi mje aaenge,
+              ye aapki toond bhi bich me nhi aaegii.
+              And Nye nye sexy sexy pose try kr paenge 🤭.
               <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            <p>
+              Chlo chodo ye sb to, bss abhi to aap health n
+              career pe focus kro.
+            </p>
+
+            <p>
+              Sex n all to baad me dekh lenge 😭.
+            </p>
               <br />
               <br />
               <br />
@@ -819,14 +834,11 @@ function App() {
               Okay okay... bas bas. 😭😂
             </div>
 
-            <p>
-              Chlo chodo ye sb to, bss abhi to aap health n
-              career pe focus kro.
-            </p>
+            <div className="blush-note">
+              Is letter k liye itnaa hi kaafi h, 
+              <br /> Nhi to aap to rukoge hi nhi scroll krte hi rhogee 😂
+            </div>
 
-            <p>
-              Sex n all to baad me dekh lenge 😭.
-            </p>
             <div className="final-hearts">
               ♡　♡　♡
             </div>
@@ -843,8 +855,8 @@ function App() {
               <div className="final-divider">
               ✦
               </div>
-              Baaki keep on loving me like this
-              and increase it day by day buggguu.
+              Baaki  to bss keep on loving me like this babyyy
+              and haa also increase this love day by day buggguu. 🤭
             </p>
 
             <div className="final-divider">
@@ -860,7 +872,7 @@ function App() {
               <br />
               <br />
               <div className="final-divider">
-              At last but not the least one……
+              At last which is not the least one……
             </div>
             </p>
 
@@ -882,6 +894,7 @@ function App() {
               I LOVE YOU
               <br />
               PUCHUUUUUUUUUU
+              <p>dheeeerrrrr saaariiii pucchiiiiii k saathhhh</p>
             </h2>
 
             <div className="final-kiss">
@@ -892,9 +905,9 @@ function App() {
               <br />
               <br />
               <br />
-              Again
+              once again
               <br />
-              Happy Birthday, my Bugguuu. 
+              Happy Birthdayyyyyy, My Bugguuuu. 
               <br />
               😘😘😘😘❤️
             </p>
